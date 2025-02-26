@@ -1,0 +1,302 @@
+[
+  {
+    "message": "I love to read romantic novels. What type of books do you like to read?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yes, I love to read those romantic novels as well though I haven't done much reading lately ever since football season started and now basketball. Any favorites in particular?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I am a huge fan of what Sarah MacLean recommends. She's a washington post column. ",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Oh Ok, I'm not too familiar with her work, I'll have to look it up after the chat. I do follow a couple of sports authors and read an opinion piece on why the author thinks the University of Iowa's locker room for visiting football teams is painted pink.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Do you have a list of sport authors for books you have read?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I like books by Michael Lewis and Ellie Kennedy but recently there's been more debate about the dangers of football on head injuries. Those articles are really convincing, how do you feel about football?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I know a lot of facts about NFL and I watch the superbowl, but other than that, I'm lost for words as to why people like football. How can a game with 11 minutes of live gameplay take 3 hours of air time.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Haha, I feel the same way! It's because they need to play ads so as to beat the average lifetime earnings of engineers because supposedly their earnings are higher than the average lifetime earnings of NFL players which I find hard to believe.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Damn, I did not know engineers made that much. I should have gone into the STEM field back in college. That's a factoid to add to my future discussions. ",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yeah, I should've done that too and if my kids ever wanted to be professional cheerleaders, I would be very opposed to it especially since the Saints cheerleaders are forbidden from eating in the same restaurant as the NFL players. They're humans too!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "That sounds like borderline discrimination but I guess they don't want the cheerleaders to influence the game. They must have had previous encounters of bad press.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yeah or gender bias too! Not sure, I didn't read about that in the news, at least not anytime recently, I'm surprised there's no MeToo campaign surround that rule!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I guess it's only a #MeToo moment if they were touched. I doubt they were. I'm surprised that there's no female NFL players, since it is no written rule against this. ",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Good point, but there's something wrong with that rule. Yeah, but even if females can play, I'd imagine some would have a difficult time meeting the leagues physical eligibility requirements, I'm not sure what that is, do you know?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I don't know. There are some muscular females out there in the world. Certain some of them can give people a run for their spot.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yeah, women can be aggressive and strategize as well! They even use tracking chips to monitor and record the players move on the field, I would love to see the data on that.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I wonder if that's their attempt to bring statistics into the game, similar to how baseball is all a statistical game. Sounds like some 1950 harvard mathematic research team with the latest gadgets.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Haha, that would be cool to track, like how fast a quarterback can throw a ball or the force at which someone tackles. I wonder if the player's contracts for salary are adjusted because they're either one of the fastest players or something.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I doubt the franchise would even know what to do with this data. A lot of them are retired football players who just knows the old fashion game play and will probably never adopt new technology.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Oh that's a good point. Besides football, I also like to watch comedies and find bromantic comedies to be especially popular and funny.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yes. I love harold and kumar. I also love white castle. Maybe I should go for some white castle burgers after this.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Haha yeah! I have never had any White Castle before, though I would love to try some time after seeing their love for the burgers.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "There should still be a few of them around. Well I'm gonna head out for a burger run. Have a good one.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "do you watch the NFL?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "yes, do you know who kellan moore is?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I have heard of him. DO you like Brady?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I do. Moore is the only QB that is left handed",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Oh cool. Brady in high school was the resevre QB that never got started",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Wow they sure lost talent there. Did you know Brad Johnson threw himself a touchdown?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "What, how is that even possible?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Exactly why he down in history for being the only one to do it",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yeah I guess. Do you know ALex Smith finished college in two years?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "No really? THat smart? Do you like drama?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I do. Have you ever seen House MD?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I have it is a good show. Do you know JOn Hamm?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Laurie made $700 000 per episode, Yes I like Hamm",
+    "agent": "agent_1"
+  },
+  {
+    "message": "That is a lot, Hamm was a drama teacher and one of his students was Ellie Kemper",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Haha they are both too funny.. Do you listen to radio dramas?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Sometimes they can be interesting and you?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yes and if you are interested there is a free website for them",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Oh that is so nice and convenient and free",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yeah it is. DO you know why Michael Caine became an actor?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I have no idea, how? DId tou know Patrick Stewart teaches masters classes in drama in the UK?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Nice. Caine became an actor because all the pretty girls were in drama class",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Hi, how are you doing today? ",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I am good, thanks. I'm wondering if you are a football fan like me? I know a lot of people are sad the season is over, especially since fantasy football is such a hit.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I like football, but I don't get much chance to watch. usually I try to catch the SB.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "What is the SB? I know if fantasy football it's all about the picks and people plan for weeks.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Super Bowl. Sorry, should have made that clear. I've never played fantasy sports. What's the goal? How do you win? What do you win?",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Oh, duh, sorry. The goal is to draft the best team by picking members from all teams to make the best.  Did you know bowlers in the 1960's made more than NFL players?",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I believe it. Bowlers had their golden age. Many leagues and lots of local interest. Then the modern gladiators showed up and stole the show.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yes! I used to bowl myself on a league. I am  more of a football fan. I know former Patriots RB Benjarvus Green-Ellis never had a fumble in his career!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "How did he do that? special gloves? Giant hands? Did he get a bonus? I hope so!",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I think just raw talent. It's hard to say if he got a bonus since the NFL has a total of 32 teams. It's hard to keep up.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I can't keep up. That's why I follow during the playoffs. I think that it would be interesting to see if a woman could play.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Actually, the NFL has no rules against women playing as long as they meet the league's eligibility requirements!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I figure that a woman could be akicker or something. They should be referees and such.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I would say. I would not want to see a man v woman contact.    ",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yes, I think it would make the viewers squeamish. Maybe women on women though. That could be fun.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "I am not sure I could watch! Although the average game has only 11 minutes of live gameplay.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "That seems short, but I guess they stand around waiting a lot. Great work, if you can get it.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yeah, no kidding. Although the average lifetime salary of engineers is higher than the average lifetime earning of an NFL player.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Plus fewer concussions too. I think it would be better for women to go into engineering.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Yeah, no kidding! I know the cheerleaders on the Saints have to leave a restaurant if a team player is there.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Sexism, plain and simple. Anyway, great chatting!",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Great chatting with you too!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Thanks!",
+    "agent": "agent_1"
+  },
+  {
+    "message": "Take care!",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Not sure how much longer Football will exist in it's current form.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "the game has caused a lot of injury. it is hard to know who is at fault. there are risks. its obvious.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "I guess the question is how much the NCAA officials knew about the potential for serious damage and injury.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "they might not have know exactly but they feared the possibility. too much money at stake to stop the game. too much liability to admit fault.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Money, money, money. Maybe it's time to go to flag football.",
+    "agent": "agent_1"
+  },
+  {
+    "message": "yes, then the whole thing could be co-ed. i wish the players had better representation in college. no one helps them.",
+    "agent": "agent_2"
+  },
+  {
+    "message": "Yeah, just kids really. I've got boys but have never encouraged them to play tackle football. Playing it before 12 has a lot of risks.",
+    "agent": "agent_1"
+  }
+]

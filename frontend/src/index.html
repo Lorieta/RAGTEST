@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Supported Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+    <script defer src="popup.js"></script>
+</head>
+<body class="bg-slate-200 flex items-center justify-center h-screen space-x-4">
+    <div class="bg-white p-4 rounded-2xl shadow w-1/2 flex flex-col space-y-4">
+        <!-- Agent Switcher -->
+        <div class="flex items-center justify-center space-x-2">
+            <div id="agent_1" class="w-full h-12 bg-slate-100 rounded-l-xl flex items-center justify-center cursor-pointer">
+                <h1>Agent 1</h1>
+            </div>
+            <div id="agent_2" class="w-full h-12 bg-slate-100 rounded-r-xl flex items-center justify-center cursor-pointer">
+                <h1>Agent 2</h1>
+            </div>
+        </div>
+        <!-- Chat Box -->
+        <div class="chat-messages h-96 overflow-y-auto pt-8 flex flex-col space-y-4"></div>
+
+        <div>
+            <button class="bg-green-800" id="recommendationButton" onclick="fetchRAG()">Recommendation</button>
+
+
+        </div>
+        <div class="chat-messages h-96 overflow-y-auto pt-8 flex flex-col space-y-4">
+            <!-- Recommendations will be appended here -->
+            <ul id="suggestionList" class="list-disc list-inside"></ul>
+        </div>
+        
+        <!-- Input Box -->
+        <form class="flex items-center justify-center w-full space-x-2">
+            <input type="text" placeholder="Type a message" class="w-full p-2 rounded-xl border border-slate-100">
+            <button type="submit" class="py-2 px-4 rounded-xl bg-blue-500 text-white font-semibold">Send</button>
+        </form>
+        <!-- Clear Chat Button -->
+        <div class="text-center mt-4">
+            <button class="clear-chat-button rounded p-1 bg-red-400 text-white font-semibold">Clear Chat</button>
+        </div>
+    </div>
+  
+</body>
+</html>
