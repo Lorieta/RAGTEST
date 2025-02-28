@@ -95,3 +95,83 @@ clearChatBtn.addEventListener("click", () => {
   localStorage.removeItem("messages");
   renderMessages();
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const recommendationButton = document.getElementById('recommendationButton');
+  const suggestionList = document.getElementById('suggestionList');
+
+  recommendationButton.addEventListener('click', async () => {
+      try {
+          const response = await fetch('http://localhost:8000/rag', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ question: 'What are your recommendations?' }),
+          });
+
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+
+          const data = await response.json();
+          const recommendations = data.rag_answer;
+
+          suggestionList.innerHTML = '';
+          recommendations.forEach((recommendation) => {
+              const listItem = document.createElement('li');
+              listItem.textContent = recommendation;
+              suggestionList.appendChild(listItem);
+          });
+      } catch (error) {
+          console.error('There has been a problem with your fetch operation:', error);
+      }
+  });
+});
+
+// Function to fetch reply suggestions from the RAG endpoint
+async function fetchRAG() {
+  try {
+      // Static question asking for reply suggestions based on the conversation context
+      const staticQuestion = "Give several recommendation on how I would continue the conversation";
+      
+      console.log("Sending static question to RAG endpoint:", staticQuestion);
+      
+      // Make the API call to the RAG endpoint
+      const response = await fetch('http://localhost:8000/rag', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+              question: staticQuestion
+          })
+      });
+      
+      if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      
+      // Log the response to console
+      console.log("RAG Response:", data);
+      
+      // Also display in the suggestion list for visibility
+      const suggestionList = document.getElementById('suggestionList');
+      if (suggestionList) {
+          suggestionList.innerHTML = `<li class="p-3 bg-blue-50 rounded-lg">${data.rag_answer}</li>`;
+      }
+      
+  } catch (error) {
+      console.error('Error fetching RAG recommendations:', error);
+  }
+}
+
+// Add event listener to the recommendation button
+document.addEventListener('DOMContentLoaded', () => {
+  const recommendationButton = document.getElementById('recommendationButton');
+  if (recommendationButton) {
+      recommendationButton.addEventListener('click', fetchRAG);
+  }
+});

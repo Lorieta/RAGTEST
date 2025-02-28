@@ -10,15 +10,7 @@ model_local = ChatOllama(model="qwen2.5:0.5b")
 conversation_memory = []
 
 def urlSpliter(url: str):
-    """
-    Load content from a URL, split it into chunks, and create embeddings
-    
-    Args:
-        url (str): URL to fetch content from
-        
-    Returns:
-        A retriever object for querying the embedded content
-    """
+   
     urls = [url]
     docs = [WebBaseLoader(u).load() for u in urls]
     docs_list = [item for sublist in docs for item in sublist]
@@ -37,15 +29,7 @@ def urlSpliter(url: str):
     return vectorstore.as_retriever()
 
 def textToEmbedding(file_path: str):
-    """
-    Load a text file, split it into chunks, and create embeddings
     
-    Args:
-        file_path (str): Path to the text file
-        
-    Returns:
-        A retriever object for querying the embedded text
-    """
     # Load the text file
     loader = TextLoader(file_path)
     documents = loader.load()
@@ -69,12 +53,7 @@ def textToEmbedding(file_path: str):
     return vectorstore.as_retriever()
 
 def load_retriever():
-    """
-    Load the existing Chroma vector store retriever
     
-    Returns:
-        A retriever object for querying the embedded content
-    """
     embedding = OllamaEmbeddings(model='mxbai-embed-large')
    
     vectorstore = Chroma(
@@ -130,7 +109,6 @@ def Rag(user_input: str, retriever):
     "Context:\n{context}\n\n"
     "User input:\n{user_input}\n\n"
     "Always consider the last message, ans stick to that context"
-    "Your response should be emotionally intelligent while remaining informative and helpful. "
     "Your response should be in a Bulleted form"
     "Your response:"
 )

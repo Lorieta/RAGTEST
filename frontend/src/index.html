@@ -6,7 +6,7 @@
     <title>AI Supported Chat</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="app.js"></script>
-    <script defer src="popup.js"></script>
+
 </head>
 <body class="bg-slate-200 flex items-center justify-center h-screen space-x-4">
     <div class="bg-white p-4 rounded-2xl shadow w-1/2 flex flex-col space-y-4">
@@ -22,11 +22,10 @@
         <!-- Chat Box -->
         <div class="chat-messages h-96 overflow-y-auto pt-8 flex flex-col space-y-4"></div>
 
-        <div>
-            <button class="bg-green-800" id="recommendationButton" onclick="fetchRAG()">Recommendation</button>
-
-
-        </div>
+      <!-- Replace your existing button with this -->
+<div>
+    <button id="recommendationButton" class="w-full py-2 px-4 bg-emerald-600 hover:bg-emerald-700 text-black font-semibold rounded-lg transition-colors duration-200">Recommendation</button>
+</div>
         <div class="chat-messages h-96 overflow-y-auto pt-8 flex flex-col space-y-4">
             <!-- Recommendations will be appended here -->
             <ul id="suggestionList" class="list-disc list-inside"></ul>
